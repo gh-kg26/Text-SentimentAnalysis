@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Real Time Sentiment Analyzer</h1>
+    <form action="/analyze" method="POST">
+        <label for="text">Enter your review:</label><br><br><br>
+        <input type="text" id="text" name="text"><br>
+        <input type="submit" value="Analyze">
+    </form>
+</body>
+</html>
+

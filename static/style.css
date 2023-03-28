@@ -1,0 +1,161 @@
+/* Set default font family and size */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    }
+    
+    /* Set background color and text color */
+    body {
+    background-color: #f6f6f6;
+    color: #444;
+    }
+    
+    /* Add some padding to the page */
+    body {
+    padding: 0;
+    margin: 0;
+    }
+    
+    /* Set header font size and color */
+    h1 {
+    font-size: 48px;
+    color: #333;
+    margin: 50px 0 20px 0;
+    font-weight: 900;
+    text-align: center;
+    }
+    
+    /* Set label font size and color */
+    label {
+    font-size: 28px;
+    color: #444;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+    
+    /* Style the input field */
+    input[type=text] {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    
+    /* Style the submit button */
+    input[type=submit] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    input[type=submit]:hover {
+    background-color: #0056b3;
+    }
+    
+    /* Add some margin to the form */
+    form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 80px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    }
+    
+/* Set style for result section */
+.result-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .result-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .result-section p {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .result-section span {
+    font-size: 60px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Set style for sentiment label */
+  .sentiment-label {
+    font-size: 36px;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Set style for emotion label */
+  .emotion-label {
+    font-size: 36px;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Set style for emotion icon */
+  .emotion-icon {
+    font-size: 60px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Set style for N/A message */
+  .na-message {
+    font-size: 28px;
+    color: #d9534f;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  
+    
+/* Set style for footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style links in footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+    
+    
+    
+    
+    

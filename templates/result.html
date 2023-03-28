@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class ="result-section">
+    <h1>Result</h1>
+    <p>Your review: {{ text }}</p>
+    <div class ="sentiment-label">
+    <p>Sentiment: {{ sentiment }}</p>
+    </div>
+    <div class="emotion-label">
+    <p>Emotion: 
+        {% if emotion == 'love' %}
+            <span>&#128525;</span> Love
+        {% elif emotion == 'funny' %}
+            <span>&#128514;</span> Funny
+        {% elif emotion == 'amusement' %}
+            <span>&#128513;</span> Amusement
+        {% elif emotion == 'anger' %}
+            <span>&#128544;</span> Anger
+        {% elif emotion == 'anxiety' %}
+            <span>&#128543;</span> Anxiety
+        {% elif emotion == 'awkwardness' %}
+            <span>&#128533;</span> Awkwardness
+        {% elif emotion == 'boredom' %}
+            <span>&#128577;</span> Boredom
+        {% elif emotion == 'calmness' %}
+            <span>&#128526;</span> Calmness
+        {% elif emotion == 'confusion' %}
+            <span>&#128532;</span> Confusion
+        {% elif emotion == 'craving' %}
+            <span>&#129360;</span> Craving
+        {% elif emotion == 'disgust' %}
+            <span>&#128 nauseated_face;</span> Disgust
+        {% elif emotion == 'empathic pain' %}
+            <span>&#128577;</span> Empathic pain
+        {% elif emotion == 'entrancement' %}
+            <span>&#128516;</span> Entrancement
+        {% elif emotion == 'excitement' %}
+            <span>&#128525;</span> Excitement
+        {% elif emotion == 'fear' %}
+            <span>&#128561;</span> Fear
+        {% elif emotion == 'horror' %}
+            <span>&#128561;</span> Horror
+        {% elif emotion == 'interest' %}
+            <span>&#129300;</span> Interest
+        {% elif emotion == 'joy' %}
+            <span>&#128512;</span> Joy
+        {% elif emotion == 'nostalgia' %}
+            <span>&#128519;</span> Nostalgia
+        {% elif emotion == 'relief' %}
+            <span>&#129303;</span> Relief
+        {% elif emotion == 'sadness' %}
+            <span>&#128577;</span> Sadness
+        {% elif emotion == 'satisfaction' %}
+            <span>&#128519;</span> Satisfaction
+        {% elif emotion == 'surprise' %}
+            <span>&#128558;</span> Surprise
+        {% else %}
+            N/A
+        {% endif %}
+    </p>
+</div>
+</div>
+</body>
+</html>
